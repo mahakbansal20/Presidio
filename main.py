@@ -21,19 +21,21 @@ def run_realtime():
             continue
 
         # Process input
-        results = process_text(analyzer, text)
+        result = process_text(analyzer, text)
 
-        # Print results
         print("\n✅ Detected PII:")
-        if not results:
+
+        entities = result["entities"]   
+
+        if not entities:
             print("No PII found.\n")
         else:
-            for r in results:
+            for r in entities:
                 print(
                     f"{r['type']} → {r['value']} "
                     f"(Risk: {r['risk']}, Confidence: {r['confidence']})"
                 )
-            print()
+            print() 
 
 
 if __name__ == "__main__":
