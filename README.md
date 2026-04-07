@@ -213,9 +213,3 @@ Structured JSON Output
 ## 👨‍💻 Author
 
 **Mahak Bansal**
-
----
-
-## 📄 License
-
-This project is for academic and research purposes.
