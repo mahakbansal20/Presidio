@@ -1,4 +1,4 @@
-# 🔍 PII Detection System using Presidio (Flipkart FDP Project)
+# 🔍 PII Detection System using Presidio
 
 ## 📌 Overview
 
